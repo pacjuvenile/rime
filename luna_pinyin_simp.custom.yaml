@@ -1,0 +1,16 @@
+patch:
+  switches:
+    - name: ascii_mode
+      # 0 - 中文,1 - 英文
+      reset: 1 
+    - name: full_shape
+      # 0 - 半角,1 - 全角
+      reset: 0
+    - name: zh_simp
+      # 0 - 繁体中文,1 - 简体中文
+      reset: 1
+   
+key_binder:
+  bindings/+:
+    - { when: always, accept: Control+Shift+4, toggle: zh_simp }
+    - { when: always, accept: Control+Shift+dollar, toggle: zh_simp }

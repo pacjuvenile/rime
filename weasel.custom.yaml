@@ -2,7 +2,37 @@ customization:
   distribution_code_name: Weasel
   distribution_version: 0.17.4
   generator: "Weasel::UIStyleSettings"
-  modified_time: "Wed Nov 12 14:57:21 2025"
+  modified_time: "Wed Nov 12 19:49:20 2025"
   rime_version: 1.13.1
+
 patch:
-  "style/color_scheme": lost_temple
+  show_notifications: false
+  
+  style:
+    color_scheme: google
+
+    font_face: Maple Mono NF CN
+    label_font_face: Maple Mono NF
+    comment_font_face: Microsoft YaHei
+    font_point: 12
+    label_font_point: 12
+    comment_font_point: 12
+
+    horizontal: true
+
+    inline_preedit: true
+    preedit_type: composition
+   
+    label_format: "%s."
+    mark_text: ""
+  
+    layout:
+      align_type: center
+      border_width: 0
+      margin_x: 6
+      margin_y: 6
+      candidate_spacing: 12
+      hilite_sparing: 3
+      hilite_padding: 6
+      round_corner: 6
+      
