@@ -6,6 +6,10 @@ customization:
   rime_version: 1.13.1
 
 patch:
+  # app_options:
+  #   wez.exe:
+  #     vim_mode: true
+
   show_notifications: false
   
   style:

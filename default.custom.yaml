@@ -10,14 +10,23 @@ patch:
     - {schema: luna_pinyin_simp}
 
   switcher:
-    caption: 方案选择
+    caption: 方案选项
     hotkeys:
-      # - Control+grave
-
+      # - Control+Alt+grave
+      
   menu:
     page_size: 7
 
   key_binder:
     bindings:
-      - { when: has_menu, accept: Escape, toggle: ascii_mode }
-      - { when: composing, accept: Escape, send: clear_compostion }
+      - { when: has_menu, accept: Escape, send: Escape }
+      - { when: always, accept: Release+Escape, set_option: ascii_mode }
+
+  ascii_composer:
+    # 禁用原切换中西文的快捷键
+    switch_key:
+      Caps_Lock: noop
+      Shift_L: noop
+      Shift_R: noop
+      Control_L: noop
+      Control_R: noop
