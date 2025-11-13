@@ -12,7 +12,6 @@ patch:
   switcher:
     caption: 方案选项
     hotkeys:
-      # - Control+Alt+grave
       
   menu:
     page_size: 7
