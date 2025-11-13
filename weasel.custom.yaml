@@ -9,7 +9,7 @@ patch:
   show_notifications: false
   
   style:
-    color_scheme: google
+    color_scheme: psionics
 
     font_face: Maple Mono NF CN
     label_font_face: Maple Mono NF
