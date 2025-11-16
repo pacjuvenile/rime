@@ -11,4 +11,6 @@ patch:
       reset: 1
 
   key_binder:
-   bindings/+:
+   bindings:
+      - { when: has_menu, accept: Escape, send: Escape }
+      - { when: always, accept: Release+Escape, set_option: ascii_mode }
