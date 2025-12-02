@@ -12,3 +12,6 @@ patch:
 
   key_binder:
     __include: default.custom.yaml:/patch/key_binder
+
+ translator:
+    dictionary: user

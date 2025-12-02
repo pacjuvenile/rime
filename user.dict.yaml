@@ -1,0 +1,11 @@
+--- 
+name: user
+version: "0.0.1"
+sort: by_weight
+import_tables: 
+  - luna_pinyin
+use_preset_vocabulary: true
+...
+
+℃	she shi du	1
+µm	wei mi	1
