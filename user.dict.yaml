@@ -4,7 +4,7 @@ version: "0.0.1"
 sort: by_weight
 import_tables: 
   - luna_pinyin
-use_preset_vocabulary: true
+use_preset_vocabulary: false
 ...
 
 ℃	she shi du	1
