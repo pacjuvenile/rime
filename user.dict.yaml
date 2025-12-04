@@ -7,6 +7,28 @@ import_tables:
 use_preset_vocabulary: true
 ...
 
-℃	she shi du	100
+²	ping fang	1000
+³	ling fang	1000
+m	mi	1000
+m²	ping fang mi	1000
+m³	li fang mi	1000
+dm	fen mi	1000
+dm²	ping fang fen mi	1000
+dm³	li fang fen mi	1000
+L	sheng	1000
+cm	li mi	1000
+cm²	ping fang li mi	1000
+cm³	li fang li mi	1000
+mL	hao sheng	1000
+mm	hao mi	1000
+mm²	ping fang hao mi	1000
+mm³	li fang hao mi	1000
+µL	wei sheng	1000
 µm	wei mi	1000
-µL	wei sheng	2000
+µm²	ping fang wei mi	1000
+µm³	li fang wei mi	1000
+nm	na mi	1000
+nm²	ping fang na mi	1000
+nm³	li fang na mi	1000
+°	du	1000
+℃	she shi du	1000
