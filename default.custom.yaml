@@ -18,8 +18,6 @@ patch:
 
   key_binder:
     bindings:
-      - { when: has_menu, accept: Escape, send: Escape }
-      - { when: always, accept: Release+Escape, set_option: ascii_mode }
       - { when: always, accept: F24, set_option: ascii_mode }
 
   ascii_composer:
