@@ -11,7 +11,17 @@ patch:
       reset: 1
 
   key_binder:
-    __include: default.custom.yaml:/patch/key_binder
+    __include: default.custom:/patch/key_binder
+
+  engine/processors:
+    - key_binder
+    - ascii_composer
+    - recognizer
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
 
   translator:
     dictionary: user
